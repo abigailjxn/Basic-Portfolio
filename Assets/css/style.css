@@ -6,6 +6,9 @@ header {
     width: 100%;
     opacity: 80%;
     background-color: lavender;
+    border: 0px, 0px, 1px, 0px;
+    border-bottom-color: grey;
+    border-style: solid;
 }
 
 body {
@@ -20,6 +23,20 @@ h1 {
     background-color: purple;
     height: 80px;
     width: 300px;
+    float: left;
+    margin-left: 10%;
+    padding-top: 30px;
+    padding-left: 20px;
+    
+}
+
+nav {
+    float: right;
+    color: slategray;
+    margin-right: 10%;
+    padding-top: 30px;
+
+    
 }
 
 h2 {
@@ -27,5 +44,28 @@ h2 {
     font-style: normal;
     font-weight: 400;
     color: purple;
+}
 
+section {
+
+}
+
+.content {
+
+}
+
+.text {
+
+}
+
+#profile {
+    
+}
+
+footer {
+
+}
+
+h6 {
+    
 }
