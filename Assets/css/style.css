@@ -1,0 +1,31 @@
+/* Link to TypeKit Fonts */
+@import url("https://use.typekit.net/sgu2yrp.css");
+
+header {
+    height: 80px;
+    width: 100%;
+    opacity: 80%;
+    background-color: lavender;
+}
+
+body {
+    font-family: "mr-eaves-modern", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: slategray;
+    background-color: purple;
+    height: 80px;
+    width: 300px;
+}
+
+h2 {
+    font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: purple;
+
+}
