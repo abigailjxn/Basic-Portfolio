@@ -13,14 +13,15 @@ header {
 
 body {
     font-family: "mr-eaves-modern", Arial, Helvetica, sans-serif;
+    color: #777;
 }
 
 h1 {
     font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
     font-style: normal;
     font-weight: 400;
-    color: slategray;
-    background-color: purple;
+    color: #8977a1;
+    background-color: #d5cce9;
     height: 80px;
     width: 300px;
     float: left;
@@ -32,7 +33,7 @@ h1 {
 
 nav {
     float: right;
-    color: slategray;
+    color: #777;
     margin-right: 10%;
     padding-top: 30px;
 
@@ -43,7 +44,7 @@ h2 {
     font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
     font-style: normal;
     font-weight: 400;
-    color: purple;
+    color: #8977a1;
 }
 
 section {
@@ -59,7 +60,7 @@ section {
 }
 
 #profile {
-    
+
 }
 
 footer {
