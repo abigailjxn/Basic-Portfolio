@@ -8,26 +8,31 @@ header {
     background-color: lavender;
     border: 0px, 0px, 1px, 0px;
     border-bottom-color: grey;
-    border-style: solid;
+    border-bottom-style: solid;
 }
 
 body {
     font-family: "mr-eaves-modern", Arial, Helvetica, sans-serif;
     color: #777;
+    height: 500px;
+    width: 
 }
 
-h1 {
+header h1 {
     font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
     font-style: normal;
     font-weight: 400;
+    font-size: 30px;
     color: #8977a1;
     background-color: #d5cce9;
-    height: 80px;
+    height: 100%;
     width: 300px;
     float: left;
     margin-left: 10%;
-    padding-top: 30px;
     padding-left: 20px;
+    line-height: 80px;
+    -webkit-margin-after: 0em;
+    -webkit-margin-before: 0em;
     
 }
 
