@@ -5,17 +5,15 @@ header {
     position: relative;
     height: 80px;
     width: 100%;
-    opacity: 80%;
     background-color: lavender;
-    border: 0px, 0px, 1px, 0px;
-    border-bottom-color: grey;
-    border-bottom-style: solid;
+    border-bottom: 2px solid grey;
 }
 
 header .container {
-    width: 960 px;
-    height: 100%;
+    width: 960px;
+    height: 80px;
     position: relative;
+    margin: auto;
     /* float: left; */
     /* margin-left: 10%; */
 
@@ -24,36 +22,33 @@ header .container {
 body {
     font-family: "mr-eaves-modern", Arial, Helvetica, sans-serif;
     color: #777;
-    height: 500px;
-    width: 100%;
+    /* height: 500px;
+    width: 100%; */
 }
 
 
 
-header h1 {
+.container h1 {
     font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
     color: #8977a1;
     background-color: #d5cce9;
     height: 100%;
     width: 300px;
-    float: left;
+    position: absolute;
     padding-left: 20px;
     line-height: 80px;
-    -webkit-margin-after: 0em;
-    -webkit-margin-before: 0em;
     
 }
 
 .container nav {
-    float: right;
     color: #777;
-    margin-right: 10%;
-    padding-top: 30px;
+    right: 0;
+    padding-top: 40px;
+    position: absolute;
 
-    
 }
 
 h2 {
@@ -61,12 +56,8 @@ h2 {
     font-style: normal;
     font-weight: 400;
     color: #8977a1;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
     padding-bottom: 1em;
-    border-bottom: 1px;
-    border-bottom-color: grey;
-    border-bottom-style: solid;
+    border-bottom: 1px solid gray;
     padding-left: 1em;
 }
 
