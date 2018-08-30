@@ -2,6 +2,7 @@
 @import url("https://use.typekit.net/sgu2yrp.css");
 
 header {
+    position: relative;
     height: 80px;
     width: 100%;
     opacity: 80%;
