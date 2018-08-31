@@ -21,8 +21,6 @@ body {
     color: #777;
 }
 
-
-
 .container h1 {
     font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
     font-size: 40px;
@@ -117,6 +115,44 @@ textarea {
     border-radius: 4px;
     color: lightslategray;
 }
+
+.boxset {
+    position: relative;
+    margin: 20px;
+    border-top: 1px solid grey;
+}
+
+table {
+    postiion:relative;
+    width: 100%;
+}
+
+td {
+    margin-right: 30px;
+}
+
+td img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    
+}
+
+.projecttitle {
+    position: relative;
+    width: 80%;
+    height: 30px;
+    bottom: 50px;
+    background-color: #8977a1;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin: auto;
+    border-radius: 4px;
+}
+
+/* I offset the .projecttitle from the image on purpose. Just thought it looked cooler than an aligned title bar! */
 
 footer {
     height: 40px;
