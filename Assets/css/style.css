@@ -6,7 +6,7 @@ header {
     height: 80px;
     width: 100%;
     background-color: lavender;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #8977a1;
 }
 
 header .container {
@@ -14,27 +14,20 @@ header .container {
     height: 80px;
     position: relative;
     margin: auto;
-    /* float: left; */
-    /* margin-left: 10%; */
-
 }
 
 body {
     font-family: "mr-eaves-modern", Arial, Helvetica, sans-serif;
     color: #777;
-    /* height: 500px;
-    width: 100%; */
 }
 
 
 
 .container h1 {
     font-family: "mrs-eaves-roman-all-petite-c","Georgia", serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 40px;
-    color: #8977a1;
-    background-color: #d5cce9;
+    color: lavender;
+    background-color: #8977a1;
     height: 100%;
     width: 300px;
     position: absolute;
@@ -68,6 +61,7 @@ section {
     height: 100%;
     background-image: url("../images/grey-linen.png");
     padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
@@ -91,11 +85,15 @@ section {
 
 #profile {
     float: left;
+    margin-right: 20px;
 }
 
 p { 
     overflow: auto;
+    padding-top: 20px;
     font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 form {
@@ -107,7 +105,7 @@ form {
 
 footer {
     height: 40px;
-    border-top: 
+    border-top: 5px solid #8977a1;
 }
 
 h6 {
